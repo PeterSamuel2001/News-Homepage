@@ -75,10 +75,6 @@ svg {
     }
 }
 
-/* root vars */
-
-:root {}
-
 /* utility classes */
 
 .padding-block-5 {
@@ -151,6 +147,15 @@ body {
     }
 }
 
+nav ul li a {
+    color: black;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
 .first-section h1 {
     font-size: 2.5em;
     font-weight: 800;
@@ -166,6 +171,11 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin: 5% 0% 10% 0%;
+    transition: 0.3s;
+}
+
+.first-section .read-more:hover {
+    background-color: #00001A;
 }
 
 .news {
@@ -175,6 +185,15 @@ body {
 }
 
 .news h1 {
+    color: #EEAE4C;
+}
+
+.news a {
+    color: white;
+    transition: 0.3s;
+}
+
+.news a:hover {
     color: #EEAE4C;
 }
 
@@ -203,6 +222,15 @@ body {
 
 .articles h1 {
     color: rgb(201, 200, 200);
+}
+
+.articles a {
+    color: black;
+    transition: 0.3s;
+}
+
+.articles a:hover {
+    color: hsl(5, 85%, 63%);
 }
 
 .articles img {
